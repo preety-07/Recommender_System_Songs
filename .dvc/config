@@ -1,4 +1,5 @@
 [core]
     remote = dvcstore
+    autostage = true
 ['remote "dvcstore"']
     url = s3://rec-sys-dvc-bucket
