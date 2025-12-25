@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  data_cleaning:
+    cmd: python3 src/data/data_cleaning.py
+    deps:
+    - path: data/Music Info.csv
+      hash: md5
+      md5: e63b74919a3cdada5c804df4666391c9
+      size: 14985870
+    - path: src/data/data_cleaning.py
+      hash: md5
+      md5: 1fe67a28d329e1a186ef0b0dfc9d8cfc
+      size: 2026
+    outs:
+    - path: data/cleaned_data.csv
+      hash: md5
+      md5: 7fbb771c077fdaea5e7a04d1bed27d6e
+      size: 13661498
