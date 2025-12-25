@@ -1,7 +1,7 @@
 import requests
 import time
 
-app_url = "http://localhost:8501"
+app_url = "http://localhost:8000"
 
 # get the status code
 def get_app_status(url):
